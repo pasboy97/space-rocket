@@ -1,0 +1,110 @@
+[
+  {
+    "id": "seed-1",
+    "callsign": "CMDR_AZAR",
+    "squadCode": "SPACENET",
+    "score": 6420,
+    "peakAltitude": 360,
+    "padsLanded": 4,
+    "ringsCollected": 9,
+    "outcome": "victory",
+    "rocketConfig": {
+      "noseCone": "aerospike",
+      "livery": "spacenet_cyan",
+      "fins": "grid_fins",
+      "plume": "ion_cyan",
+      "callsignTag": "SN-01"
+    },
+    "createdAt": "2026-10-21T18:10:00.000Z"
+  },
+  {
+    "id": "seed-2",
+    "callsign": "MEDIATAMA_HQ",
+    "squadCode": "SPACENET",
+    "score": 5890,
+    "peakAltitude": 360,
+    "padsLanded": 3,
+    "ringsCollected": 8,
+    "outcome": "victory",
+    "rocketConfig": {
+      "noseCone": "capsule",
+      "livery": "solar_gold",
+      "fins": "twin_boosters",
+      "plume": "plasma_amber",
+      "callsignTag": "SN-HQ"
+    },
+    "createdAt": "2026-10-21T19:45:00.000Z"
+  },
+  {
+    "id": "seed-3",
+    "callsign": "VOXEL_VALKYRIE",
+    "squadCode": "ORBIT-88",
+    "score": 5140,
+    "peakAltitude": 360,
+    "padsLanded": 3,
+    "ringsCollected": 7,
+    "outcome": "victory",
+    "rocketConfig": {
+      "noseCone": "voxel_command",
+      "livery": "retro_arcade",
+      "fins": "delta_swept",
+      "plume": "hyper_magenta",
+      "callsignTag": "VX-88"
+    },
+    "createdAt": "2026-10-21T20:15:00.000Z"
+  },
+  {
+    "id": "seed-4",
+    "callsign": "GARUDA_NOZZLE",
+    "squadCode": "SPACENET",
+    "score": 4320,
+    "peakAltitude": 315,
+    "padsLanded": 2,
+    "ringsCollected": 6,
+    "outcome": "defeat",
+    "rocketConfig": {
+      "noseCone": "aerospike",
+      "livery": "stealth_obsidian",
+      "fins": "grid_fins",
+      "plume": "ion_cyan",
+      "callsignTag": "GR-07"
+    },
+    "createdAt": "2026-10-21T21:00:00.000Z"
+  },
+  {
+    "id": "seed-5",
+    "callsign": "KEPLER_DRIFT",
+    "squadCode": "ORBIT-88",
+    "score": 3680,
+    "peakAltitude": 245,
+    "padsLanded": 2,
+    "ringsCollected": 5,
+    "outcome": "defeat",
+    "rocketConfig": {
+      "noseCone": "aerospike",
+      "livery": "spacenet_cyan",
+      "fins": "delta_swept",
+      "plume": "ion_cyan",
+      "callsignTag": "SN-01"
+    },
+    "createdAt": "2026-10-21T22:05:00.000Z"
+  },
+  {
+    "id": "pilot-1792651612707-b7x7",
+    "callsign": "NOVA_PILOT",
+    "squadCode": "SPACENET",
+    "score": 1250,
+    "peakAltitude": 0,
+    "padsLanded": 1,
+    "ringsCollected": 0,
+    "outcome": "defeat",
+    "rocketConfig": {
+      "noseCone": "aerospike",
+      "livery": "spacenet_cyan",
+      "fins": "delta_swept",
+      "plume": "ion_cyan",
+      "callsignTag": "NOVA_P"
+    },
+    "createdAt": "2026-10-22T06:46:52.707Z"
+  }
+]

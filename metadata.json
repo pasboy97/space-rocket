@@ -1,0 +1,6 @@
+{
+  "name": "SpaceNet: Orbital Pixel Rocket",
+  "description": "3D retro-pixel physics rocket simulator with custom modular ship building, orbital relay landing challenges, and a live global leaderboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
