@@ -8,8 +8,8 @@ WORKDIR /app
 # Copy package manifests first for layer caching
 COPY package*.json ./
 
-# Install all dependencies (including devDependencies needed for Vite build & tsx)
-RUN npm install
+# Install all dependencies (with --legacy-peer-deps to prevent ERESOLVE peer conflicts)
+RUN npm install --legacy-peer-deps
 
 # Copy application source files
 COPY . .
