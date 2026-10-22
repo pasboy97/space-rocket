@@ -5,8 +5,10 @@ FROM node:22-alpine AS builder
 
 WORKDIR /app
 
-# Copy package manifests first for layer caching
-COPY package*.json ./
+ENV NPM_CONFIG_LEGACY_PEER_DEPS=true
+
+# Copy package manifest first for layer caching
+COPY package.json .npmrc* ./
 
 # Install all dependencies (with --legacy-peer-deps to prevent ERESOLVE peer conflicts)
 RUN npm install --legacy-peer-deps
