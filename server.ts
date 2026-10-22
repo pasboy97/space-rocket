@@ -136,9 +136,13 @@ function saveLeaderboard(entries: LeaderboardEntry[]): void {
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   app.use(express.json());
+
+  app.get('/api/health', (_req, res) => {
+    res.status(200).json({ status: 'ok', service: 'spacenet-orbital-rocket' });
+  });
 
   app.get('/api/leaderboard', (req, res) => {
     const squad = typeof req.query.squad === 'string' ? req.query.squad : 'ALL';
